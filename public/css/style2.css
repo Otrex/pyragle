@@ -354,6 +354,10 @@ footer .footer {
 		--sidebar-mini-width : 50px;
 		--sidebar-nav-padding-side : 14px;
 	}
+	#panel-1 .jumbo img {
+		width: 100%
+		height: auto;
+	}
 	
 	.xscroll {
 		display: block;
@@ -377,6 +381,7 @@ footer .footer {
 	}
 	#header {
 		height: 45px;
+		top: -45px;
 	}
 	.user .name {
 		display: none;

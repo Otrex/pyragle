@@ -7,7 +7,7 @@
         </label><span>Dashboard</span>
       </div>
     </div>
-    <div class="info">
+    <div class="info" style="background: white;">
       <div class="ico"><a href="" class="mfix"><img src="img/search.svg"></a></div>
       <div class="ico"><a href="" class="mfix"><img src="img/msg.svg"></a></div>
       <div class="ico"><a href=""><img src="img/bell.svg"></a></div>

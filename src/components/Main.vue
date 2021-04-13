@@ -18,11 +18,18 @@ import Panel1 from './Panel1.vue'
 import Panel2 from './Panel2.vue'
 import Footer from './Footer.vue'
 
+import { mapMutations } from 'vuex'
 
 export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  methods:{
+    ...mapMutations(['setCurrentSideBar'])
+  },
+  created(){
+    this.setCurrentSideBar('dashboard')
   },
   components : {
     TopNav,
